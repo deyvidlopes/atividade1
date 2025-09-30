@@ -1,9 +1,22 @@
 header {
-    color: #ffa600;
+    color: antiquewhite;
     background-color: black;
+     padding: 0px;
+    text-align: center;
 }
+h1, h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     background-color: antiquewhite;
+}
+
+.imagens, .videos, .maps {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
 }
 img {
     margin-top: 10px;
